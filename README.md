@@ -1,3 +1,3 @@
-# JuliasPortfolio.github.io
+ JuliasPortfolio
 projects
 My first Github Pages Repository
