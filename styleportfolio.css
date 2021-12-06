@@ -194,7 +194,8 @@ h3 { font-size: var(--fs-h3) }
 .nav-link-grow-up::before {
   height: 0%; /*can be 1 to show line on bottonm of each word*/
   width: 100%;
-  bottom: 20px; /*shows the black bar under each link with the right space*/
+  bottom: 5px; /*shows the black bar under each link with the right space*/
+	/*was 20px*/
 }
 
 .nav-link-grow-up:hover::before {
@@ -203,13 +204,13 @@ h3 { font-size: var(--fs-h3) }
 
 @media (max-width: 600px) {
  .navbar{
-		display: grid;
-		position: relative;
-		width: min-content;
-		padding: 60px 5px 15px; /*gives space around the pic for the links to work properly*/
-		margin: 0px auto; /*0 auto*/
-		grid-column-gap: 1em; /*space between the pic and words*/
-		grid-template-columns: min-content max-content;
+	display: grid;
+	position: relative;
+	width: min-content;
+	padding: 60px 5px 15px; /*gives space around the pic for the links to work properly*/
+	margin: 0px auto; /*0 auto*/
+	grid-column-gap: 1em; /*space between the pic and words*/
+	grid-template-columns: min-content max-content;
  }
 }
 /*Side Navigation (Hamaburger)*/
