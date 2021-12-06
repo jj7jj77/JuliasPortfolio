@@ -174,7 +174,7 @@
 			<br>
 			<ul class="social-list">
 				<li class="links">
-					<a href="#home" align="center">Home Page</a>
+					<a href="portfolio.html" align="center">Home Page</a>
 				</li>
 
 				<li class= "social-list-item">
