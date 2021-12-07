@@ -3,8 +3,8 @@
 *::before,
 *::after {
 	box-sizing: border-box; /*changing how padding is calculated 
-							to make it within a width instead of 
-							adding a total witdh of something*/
+				to make it within a width instead of 
+				adding a total witdh of something*/
 }
 
 :root { /*this is how custome properies work with the --*/
@@ -41,22 +41,23 @@ html {
 }
 
 /*General Styles*/
-body{
+body {
     background: var(--clr-light); /*changes the color based on the custom properties*/
-	color: var(--clr-dark);
+    color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    width: 100%;
 }
 
-section{
+section {
 	padding: 4em 2em;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+	display: block;
+	max-width: 100%;
 }
 
 strong {
