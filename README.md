@@ -9,7 +9,7 @@
 
 		<link rel="stylesheet" type="text/css" href="styleportfolio.css">
 
-	 	<script type="text/javascript" src="index.js"defer></script>	
+	 	<script type="text/javascript" src="index.js"></script>	
 </head>
 	<body>
 		<header>
