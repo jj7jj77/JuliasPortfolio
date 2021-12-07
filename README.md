@@ -12,11 +12,11 @@
 	 	<script type="text/javascript" src="index.js"></script>	
 </head>
 	<body>
-		<header>
+<!-- 		<header>
 			<div class="logo">
 				<a href="#" class="nav__item">
 				<img class="logo" src="images/JuliaLogo.jpg" alt=""></a>	
-			</div>
+			</div> -->
 			<!-- Top NNavigation Bar -->
 			<div class="navbar">
 				<div class="nav--list">
