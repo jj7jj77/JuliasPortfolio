@@ -65,7 +65,7 @@
 					<h3>Games</h3>
 					<p>I had created a couple of games, such as Rock Paper Scissors, Tic Tac Toe and Snake Game.</p>
 				</div> <!-- service -->
-
+ 
 				<div class="service">
 					<h3>Tribute Page</h3>
 					<p>I had created a Tribute Page of someone whom I adore and has inspired me and my life.</p>
