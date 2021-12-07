@@ -1,8 +1,8 @@
-
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=5.0"> <!-- content is to make sure that the website functions on small device and big ones.will work responsively-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- content is to make sure that the website functions on small device and big ones.will work responsively-->
 		<title>Julia's Portfolio Website</title>
 
 <!-- font can u used from google font -->
@@ -10,7 +10,7 @@
 
 		<link rel="stylesheet" type="text/css" href="styleportfolio.css">
 
-	 	<script type="text/javascript" src="index.js"></script>	
+	 	<script type="text/javascript" src="index.js"defer></script>	
 </head>
 	<body>
 		<header>
@@ -36,7 +36,7 @@
 			<!--Navigation-->
 			<nav class="nav">
 				<ul class="nav__list">
-					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>M
+					<li class="nav__item"><a href="#" class="nav__link">Home</a></li>
 					<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
 					<li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
 					<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
@@ -146,7 +146,7 @@
 
 			<div class="portfolio">
 				<!-- Portfolio item 01 -->
-				<a href="portfolio-real-estate-project.html#work" class="portfolio-item">
+				<a href="portfolio-real-estate-project.html" class="portfolio-item">
 					<img src="images/Real-Estate-PrideSign.jpg" alt="Pride" class="portfolio-img"></a> 
 
 				<!-- Portfolio item 02 -->
@@ -202,6 +202,5 @@
 		<!-- <script ype="text/javascript" src="js/index.js"></script> --> <!-- type="text/javascript" -->
 	</body>
 </html>
-
 
 
