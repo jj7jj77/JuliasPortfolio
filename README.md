@@ -12,8 +12,8 @@
 	 	<script type="text/javascript" src="index.js"></script>	
 </head>
 	<body>
-<!-- 		<header>
-			<div class="logo">
+		<header>
+			<!-- <div class="logo">
 				<a href="#" class="nav__item">
 				<img class="logo" src="images/JuliaLogo.jpg" alt=""></a>	
 			</div> -->
