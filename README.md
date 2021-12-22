@@ -5,11 +5,11 @@
 		<title>Julia's Portfolio Website</title>
 
 <!-- font can u used from google font -->
-		<script src="https://kit.fontawesome.com/635d52bfb9.js" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/225ae98924.js" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" type="text/css" href="styleportfolio.css">
 
-	 	<script type="text/javascript" src="index.js"></script>	
+	 	<script type="text/javascript" src="index.js"defer></script>	
 </head>
 	<body>
 		<header>
@@ -136,6 +136,30 @@
 				</div>
 			</div>
 		</div>
+				<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Who I Am</h2>
+			<p class="section__subtitle section__subtitle--about">Web Developer - UI Designer</p>
+
+			<div class="about-me__body"> <!-- subsection of about-me -->
+				<p>talk about yourself</p>
+				<p>talk about yourself here too</p>
+			</div>
+
+			<img src="images/jpic.jpg" alt="a picture of Julia Katz smiling" class="about-me-img"> <!-- find a new pic -->
+		
+		
+			<div class="circular">
+				<div class="inner"></div>
+				<div class="number">80%</div>
+				<div class="circle">
+					<div class="bar left">
+						<div class="progress"></div>
+					</div>
+					<div class="bar right">
+						<div class="progress"></div>
+					</div>
+				</div>
+			</div>
 	</section>
 	
 		<!-- My Work --> <!-- Add school Projects -->
@@ -145,7 +169,7 @@
 
 			<div class="portfolio">
 				<!-- Portfolio item 01 -->
-				<a href="portfolio-real-estate-project.html" class="portfolio-item">
+				<a href="portfolio-real-estate-project.html#work" class="portfolio-item">
 					<img src="images/Real-Estate-PrideSign.jpg" alt="Pride" class="portfolio-img"></a> 
 
 				<!-- Portfolio item 02 -->
@@ -163,6 +187,10 @@
 				<!-- Portfolio item 05 -->
 				<a href="portfolio-tribute-project.html" class="portfolio-item">
 					<img src="images/tribute-pic.jpg" alt="code-detail-pic" class="portfolio-img"></a> <!-- find a new pic -->
+
+				<!-- Portfolio item 06 -->
+				<a href="portfolio-alphabet-project.html" class="portfolio-item">
+					<img src="images/alpha.jpeg" alt="alpha-pic" width= "180px" class="portfolio-img"></a> <!-- find a new pic -->
 			</div>
 		</section>
 
