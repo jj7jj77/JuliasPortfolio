@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -5,18 +6,18 @@
 		<title>Julia's Portfolio Website</title>
 
 <!-- font can u used from google font -->
-		<script src="https://kit.fontawesome.com/635d52bfb9.js" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/225ae98924.js" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" type="text/css" href="styleportfolio.css">
-		
-	 	<script type="text/javascript" src="index.js"></script>	
+
+	 	<script type="text/javascript" src="index.js"defer></script>	
 </head>
 	<body>
 		<header>
-<!-- 			<div class="logo">
+			<div class="logo">
 				<a href="#" class="nav__item">
 				<img class="logo" src="images/Julialogo.jpg" alt=""></a>	
-			</div> -->
+			</div>
 			<!-- Top NNavigation Bar -->
 			<div class="navbar">
 				<div class="nav--list">
@@ -36,7 +37,7 @@
 			<nav class="nav">
 				<ul class="nav__list">
 					<li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-					<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+					<li class="nav__item"><a href="#services" class="nav__link">My Serives</a></li>
 					<li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
 					<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
 				</ul>
@@ -89,54 +90,19 @@
 			<img src="images/jpic.jpg" alt="a picture of Julia Katz smiling" class="about-me-img"> <!-- find a new pic -->
 		
 		
-			<div class="wrapper">
-			<div class="shape-1"></div>
-			<div class="shape-2"></div>
-			<div class="container">
-				<h2>My Skills</h2>
-				<div class="skills">
-					<div class="details">
-						<span>HTML</span><span>60%</span> <!--change the %-->
+			<div class="circular">
+				<div class="inner"></div>
+				<div class="number">80%</div>
+				<div class="circle">
+					<div class="bar left">
+						<div class="progress"></div>
 					</div>
-					<div class="bar">
-						<div id="html-bar"></div>
-					</div>
-				</div>
-				<div class="skills">
-					<div class="details">
-						<span>CSS</span><span>40%</span> <!--change the %-->
-					</div>
-					<div class="bar">
-						<div id="css-bar"></div>
-					</div>
-				</div>
-				<div class="skills">
-					<div class="details">
-						<span>JavaScript</span><span>20%</span> <!--change the %-->
-					</div>
-					<div class="bar">
-						<div id="js-bar"></div>
-					</div>
-				</div>
-				<div class="skills">
-					<div class="details">
-						<span>React</span><span>0%</span> <!--change the %-->
-					</div>
-					<div class="bar">
-						<div id="react-bar"></div>
-					</div>
-				</div>
-				<div class="skills">
-					<div class="details">
-						<span>Angular</span><span>0%</span> <!--change the %-->
-					</div>
-					<div class="bar">
-						<div id="angular-bar"></div>
+					<div class="bar right">
+						<div class="progress"></div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 	
 		<!-- My Work --> <!-- Add school Projects -->
 		<section class="my-work" id="work">
@@ -145,7 +111,7 @@
 
 			<div class="portfolio">
 				<!-- Portfolio item 01 -->
-				<a href="portfolio-real-estate-project.html" class="portfolio-item">
+				<a href="portfolio-real-estate-project.html#work" class="portfolio-item">
 					<img src="images/Real-Estate-PrideSign.jpg" alt="Pride" class="portfolio-img"></a> 
 
 				<!-- Portfolio item 02 -->
@@ -163,6 +129,10 @@
 				<!-- Portfolio item 05 -->
 				<a href="portfolio-tribute-project.html" class="portfolio-item">
 					<img src="images/tribute-pic.jpg" alt="code-detail-pic" class="portfolio-img"></a> <!-- find a new pic -->
+
+				<!-- Portfolio item 06 -->
+				<a href="portfolio-alphabet-project.html" class="portfolio-item">
+					<img src="images/alpha.jpeg" alt="alpha-pic" width= "180px" class="portfolio-img"></a> <!-- find a new pic -->
 			</div>
 		</section>
 
@@ -178,22 +148,22 @@
 
 				<li class= "social-list-item">
 					<a class="social-list-link" href="https://github.com/jj7jj77">
-						<i class="fab fa-github"></i>
+						<i class="fab fa-github">g</i>
 					</a>
 				</li>
 				<li class= "social-list-item">
 					<a class="social-list-link" href="https://www.linkedin.com/in/julia-katz027">
-						<i class="fab fa-linkedin"></i>
+						<i class="fab fa-linkedin">l</i>
 					</a>
 				</li>
 				<li class= "social-list-item">
 					<a class="social-list-link" href="http://jksites.s3-website-us-east-1.amazonaws.com/Index.html">
-						<i class="fab fa-aws"></i>
+						<i class="fab fa-aws">a</i>
 					</a>
 				</li>
 				<li class= "social-list-item">
 					<a class="social-list-link" href="https://codepen.io/jj7jj7">
-						<i class="fab fa-codepen"></i>
+						<i class="fab fa-codepen">c</i>
 					</a>
 				</li>
 			</ul>

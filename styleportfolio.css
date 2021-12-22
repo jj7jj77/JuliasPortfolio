@@ -3,10 +3,10 @@
 *::before,
 *::after {
 	box-sizing: inherit; /*changing how padding is calculated 
-				to make it within a width instead of 
-				adding a total witdh of something*/
-	width: 100%;
-	
+							to make it within a width instead of 
+							adding a total witdh of something*/
+/*	width: 100%;
+	height: 100%;*/
 }
 
 :root { /*this is how custome properies work with the --*/
@@ -52,6 +52,7 @@ body{
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    text-align: center;
 }
 
 section{
@@ -415,7 +416,7 @@ h3 { font-size: var(--fs-h3) }
 		margin-left: 2em; /*gives the paras space in between*/
 	}
 }
-z
+
 /*About Me Section*/
 
 .about-me {
@@ -535,7 +536,7 @@ z
 
 .footer__link:hover,
 .social-list-link:hover {
-	opacity: .7;
+	opacity: .7; /*.7*/
 }
 
 .footer__link:hover {
@@ -546,8 +547,8 @@ z
 	list-style: none;
 	display: flex; 
 	justify-content: center;
-	/*position: relative;*/	
-	margin: 1em 0 0; /*2em 0 0;*/
+	/*position: relative;	*/
+	margin: 2em 0 0; /*2em 0 0;*/
 	padding: 0;
 }
 
@@ -567,69 +568,86 @@ z
     margin: 0;
     box-sizing: border-box;
 }
-*/
 
-/*body {
+
+body {
 	height:100vh;
     background-color: #f6f7fc;
 }*/
 
-.wrapper {
-    width: 50%; /*changes the size*/
-    min-width: 590px;
-    position: relative; /*to move it to the about me secion instead of floating in the page*/
-    transform: translate(-50%,-50%);
-    left: 25%; /*moves right*/
-    top: 55%; /*moves down*/
+
+
+.circular{
+  height:100px;
+  width: 100px;
+  position: relative;  
+  border:solid green 1px;
 }
 
-.container {
-    width: 100%;
-    padding: 30px 30px 50px;
-    background: linear-gradient(45deg, #b74096, #da4772);
-    border: 2px solid rgba(255,255,255,0.06);
-    border-radius: 10px;
-    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
-    backdrop-filter: blur(10px);
+.circular .inner{
+  position: absolute;
+  z-index: 6;
+  top: 50%;
+  left: 50%;
+  height: 80px;
+  width: 80px;
+  margin: -40px 0 0 -40px;
+  background: white;
+  border-radius: 100%;
 }
 
-.container * {
-    font-family: "Poppins",sans-serif;
-    color: white;
-    font-weight: 500;
-} 
-
-h2 {
-    margin-bottom: 50px;
-    letter-spacing: 2px;
-    text-align: center;
-    font-size: 33px;
-    font-weight: bold;
+.circular .number{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index:10;
+  font-size:18px;
+  font-weight:500;
+  color:#4158d0;
 }
 
-.skills:not(:last-child) {
-    margin-bottom: 30px;
+.circular .bar{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: red;
+ /* -webkit-border-radius: 100%;*/
+  clip: rect(0px, 100px, 100px, 50px);
 }
 
-.details {
-    width: 100%;
-    display: flex;  
-    justify-content: space-between;
-    margin-bottom: 10px;
+.circle .bar .progress{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /*-webkit-border-radius: 100%;*/
+  clip: rect(0px, 50px, 100px, 0px);
+  background: #4158d0;
 }
 
-.bar {
-    position: relative;
-    border: 2px solid #f6f7fc;
-    border-radius: 20px;
+.circle .left .progress{
+  z-index:1;
+  animation: left 4s linear both;
+}
+@keyframes left{
+  100%{
+    transform: rotate(180deg);
+  }
+}
+.circle .right {
+  transform: rotate(180deg);
+ /* z-index:3;*/
+ 
+}
+.circle .right .progress{
+  animation: right 4s linear both;
+  animation-delay:4s;
 }
 
-.bar div {
-    position: relative;
-    width: 0;
-    height: 9px;
-    border-radius: 10px;
-    background-color: #f6f7fc;
+@keyframes right{
+  100%{
+    transform: rotate(180deg);
+  }
 }
 
 
