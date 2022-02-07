@@ -6,11 +6,11 @@
 		<title>Julia's Portfolio Website</title>
 
 <!-- font can u used from google font -->
-		<script src="https://kit.fontawesome.com/635d52bfb9.js" crossorigin="anonymous"></script>
+	<!-- <script src="https://kit.fontawesome.com/635d52bfb9.js" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" type="text/css" href="styleportfolio.css">
 
-	 	<script type="text/javascript" src="index.js"defer></script>	
+		<script type="text/javascript" src="index.js"defer></script> -->
 </head>
 	<body>
 		<header>
